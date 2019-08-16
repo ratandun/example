@@ -46,6 +46,11 @@ Route::namespace('Admin')->group(function () {
     //Route::get('/add-vip', 'VipController@add');
     Route::post('/add-vip', 'VipController@add')->name('add.vip');
     //Route for add new section
-    Route::get('/add-section', 'SectionController@add')->name('section');
+  
+
+    //section routegi 
+    
+
+
    
 });
